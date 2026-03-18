@@ -21,7 +21,7 @@ const allSlots = [
   '14:00', '14:30', '15:00', '15:30', '16:00', '16:30',
 ];
 
-const initialBookings = [
+const initialBookings: { id: string; studentName: string; date: string; time: string; status: string; topic: string }[] = [
   { id: '1', studentName: 'João Silva', date: weekDays[2]?.value || '2026-03-20', time: '10:00', status: 'pending' as const, topic: 'Revisão de trades' },
   { id: '2', studentName: 'Ana Costa', date: weekDays[3]?.value || '2026-03-21', time: '14:30', status: 'pending' as const, topic: 'Análise de setup' },
   { id: '3', studentName: 'Miguel Santos', date: weekDays[0]?.value || '2026-03-18', time: '11:00', status: 'approved' as const, topic: 'Mentoria avançada' },

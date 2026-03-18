@@ -100,6 +100,7 @@ function AppRoutes() {
         <Route path="trades" element={<AdminTrades />} />
         <Route path="bookings" element={<AdminBookings />} />
         <Route path="groups" element={<AdminGroups />} />
+        <Route path="messages" element={<AdminMessages />} />
         <Route path="events" element={<AdminEvents />} />
         <Route path="museum" element={<AdminMuseum />} />
       </Route>
