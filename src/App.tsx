@@ -38,6 +38,8 @@ import AdminBookings from "@/pages/admin/AdminBookings";
 import AdminGroups from "@/pages/admin/AdminGroups";
 import AdminEvents from "@/pages/admin/AdminEvents";
 import AdminMuseum from "@/pages/admin/AdminMuseum";
+import AppMessages from "@/pages/app/AppMessages";
+import AdminMessages from "@/pages/admin/AdminMessages";
 
 const queryClient = new QueryClient();
 
