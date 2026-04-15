@@ -1,32 +1,32 @@
 export const brandConfig = {
-  id:          'tarik-forex',
-  name:        'Tarik Forex AI',
-  tagline:     'Domina o Forex com Inteligência Artificial',
-  description: 'A plataforma premium de trading que combina IA avançada, mentoria directa, cursos exclusivos e análise de performance. Tudo o que precisas num só lugar.',
-  copyright:   'Tarik Forex AI',
-  mentorName:  'Tarik',
+id:          'money-makers',
+name:        'Money Makers',
+tagline:     'Where Traders Come To Win',
+description: 'A academia premium que forma traders disciplinados, estratégicos e consistentes. Psicologia, gestão de risco e execução para o mercado real.',
+copyright:   'Money Makers',
+mentorName:  'Money Makers',
 
-  logo:        '/assets/brand/logo.jpeg',
-  logoAlt:     'Tarik Forex AI',
+logo:        '/assets/brand/logo.jpeg',
+logoAlt:     'Money Makers',
 
-  colors: {
-    primary:    '152 55% 46%',
-    background: '220 16% 3.5%',
-    foreground: '210 20% 93%',
-    muted:      '215 12% 48%',
-    accent:     '152 30% 16%',
-  },
+colors: {
+primary:    '231 69% 33%',
+background: '230 51% 11%',
+foreground: '0 0% 100%',
+muted:      '220 9% 66%',
+accent:     '231 92% 18%',
+},
 
-  fonts: {
-    heading:   "'Inter', sans-serif",
-    body:      "'Inter', sans-serif",
-    importUrl: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
-  },
+fonts: {
+heading:   "'Inter', sans-serif",
+body:      "'Inter', sans-serif",
+importUrl: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap',
+},
 
-  demoHint: {
-    adminEmail: 'admin@tarik.com',
-    label:      'Demo: usa admin@tarik.com para admin ou qualquer email para cliente',
-  } as { adminEmail: string; label: string } | null,
+demoHint: {
+adminEmail: 'admin@moneymakers.com',
+label:      'Demo: usa admin@moneymakers.com para admin ou qualquer email para membro',
+} as { adminEmail: string; label: string } | null,
 } as const;
 
 export type BrandConfig = typeof brandConfig;

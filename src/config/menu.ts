@@ -51,19 +51,19 @@ export const adminNav: NavItem[] = [
 ];
 
 export const categories: Category[] = [
-  { id: 'all',        label: 'Todos',           image: '/assets/categories/all.jpg'          },
-  { id: 'iniciante',  label: 'Iniciante',        image: '/assets/categories/beginner.jpg'     },
-  { id: 'intermedio', label: 'Intermédio',       image: '/assets/categories/intermediate.jpg' },
-  { id: 'avancado',   label: 'Avançado',         image: '/assets/categories/advanced.jpg'     },
-  { id: 'psicologia', label: 'Psicologia',       image: '/assets/categories/psychology.jpg'   },
-  { id: 'pratico',    label: 'Prático ao Vivo',  image: '/assets/categories/live.jpg'         },
+{ id: 'all',         label: 'Todos',       image: '/assets/categories/all.jpg'         },
+{ id: 'Iniciante',   label: 'Iniciante',   image: '/assets/categories/beginner.jpg'    },
+{ id: 'Psicologia',  label: 'Psicologia',  image: '/assets/categories/psychology.jpg'  },
+{ id: 'Risco',       label: 'Risco',       image: '/assets/categories/risk.jpg'        },
+{ id: 'Estratégia',  label: 'Estratégia',  image: '/assets/categories/strategy.jpg'    },
+{ id: 'Performance', label: 'Performance', image: '/assets/categories/performance.jpg' },
 ];
 
 export const products: Product[] = [
-  { id: '1', title: 'Forex Fundamentos', description: 'Aprende as bases do mercado Forex', modules: 8, duration: '4h 30m', progress: 65, category: 'Iniciante', featured: true, thumbnail: '/assets/courses/forex-fundamentos.jpg' },
-  { id: '2', title: 'Price Action Avançado', description: 'Domina price action e estrutura de mercado', modules: 12, duration: '7h 15m', progress: 30, category: 'Avançado', featured: true, thumbnail: '/assets/courses/price-action.jpg' },
-  { id: '3', title: 'Gestão de Risco', description: 'Protege o teu capital como profissional', modules: 6, duration: '3h', progress: 0, category: 'Intermédio', featured: false, thumbnail: '/assets/courses/gestao-risco.jpg' },
-  { id: '4', title: 'Psicologia de Trading', description: 'Controla as emoções e toma decisões racionais', modules: 10, duration: '5h 45m', progress: 0, category: 'Todos', featured: false, thumbnail: '/assets/courses/psicologia.jpg' },
-  { id: '5', title: 'Análise Técnica', description: 'Indicadores, padrões e confluências', modules: 14, duration: '8h', progress: 100, category: 'Intermédio', featured: true, thumbnail: '/assets/courses/analise-tecnica.jpg' },
-  { id: '6', title: 'Trading com Notícias', description: 'Opera com base em eventos fundamentais', modules: 5, duration: '2h 30m', progress: 0, category: 'Avançado', featured: false, thumbnail: '/assets/courses/trading-noticias.jpg' },
+{ id: '1', title: 'Fundamentos do Trading',       description: 'Estrutura de mercado, pares, sessões e os primeiros passos do trader sério.',          modules: 8,  duration: '3h 30m', progress: 0, category: 'Iniciante',   featured: true,  thumbnail: '/assets/courses/fundamentos.jpg'  },
+{ id: '2', title: 'Psicologia & Mentalidade',     description: 'Como gerir emoções, eliminar revenge trading e construir disciplina operacional.',      modules: 10, duration: '4h 15m', progress: 0, category: 'Psicologia',  featured: true,  thumbnail: '/assets/courses/psicologia.jpg'   },
+{ id: '3', title: 'Gestão de Risco Profissional', description: 'Dimensionamento de posição, drawdown máximo e regras de proteção de capital.',         modules: 7,  duration: '3h',     progress: 0, category: 'Risco',       featured: true,  thumbnail: '/assets/courses/risco.jpg'        },
+{ id: '4', title: 'Price Action & Estrutura',     description: 'Leitura de mercado sem indicadores — suporte, resistência, BOS e pontos de entrada.',  modules: 14, duration: '6h 45m', progress: 0, category: 'Estratégia',  featured: true,  thumbnail: '/assets/courses/price-action.jpg' },
+{ id: '5', title: 'Execução & Plano de Trading',  description: 'Como construir e seguir um plano com regras claras e processo repetível.',             modules: 9,  duration: '4h',     progress: 0, category: 'Estratégia',  featured: false, thumbnail: '/assets/courses/execucao.jpg'     },
+{ id: '6', title: 'Trading Journal Avançado',     description: 'Como analisar o histórico de trades para identificar padrões e melhorar consistência.', modules: 6,  duration: '2h 30m', progress: 0, category: 'Performance', featured: false, thumbnail: '/assets/courses/journal.jpg'      },
 ];

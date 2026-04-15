@@ -1,7 +1,7 @@
 import {
   LayoutDashboard, MessageSquare, GraduationCap, BarChart3, Radio,
   Calendar, Users, Trophy, Image, User, Mail, Shield, TrendingUp,
-  HelpCircle, Target, Zap, Award, ArrowRight,
+  HelpCircle, Target, Zap, Award, ArrowRight, Brain,
 } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
@@ -24,6 +24,7 @@ const ICON_MAP: Record<string, LucideIcon> = {
   Zap,
   Award,
   ArrowRight,
+  Brain,
 };
 
 export function resolveIcon(key: string): LucideIcon {
