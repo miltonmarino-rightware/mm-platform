@@ -10,8 +10,8 @@ const events = [
 ];
 
 const statusStyles: Record<string, { bg: string; label: string }> = {
-  active: { bg: 'bg-primary/10 text-primary', label: 'Activo' },
-  upcoming: { bg: 'bg-warning/10 text-warning', label: 'Em Breve' },
+  active: { bg: 'bg-market-up/10 text-market-up', label: 'Activo' },
+  upcoming: { bg: 'bg-market-warn/10 text-market-warn', label: 'Em Breve' },
   ended: { bg: 'bg-muted text-muted-foreground', label: 'Terminado' },
 };
 
