@@ -24,14 +24,12 @@ export default function AppCourses() {
     <motion.div initial="hidden" animate="show" transition={{ staggerChildren: 0.06 }}
       className="p-4 lg:p-8 space-y-8 max-w-7xl mx-auto">
 
-      <motion.div variants={anim}
-        className="bg-gradient-to-br from-primary/15 to-primary/5 border border-primary/20 rounded-2xl p-6 lg:p-10">
-        <div className="flex items-center gap-2 mb-3">
-          <Star size={16} className="text-primary" />
-          <span className="text-xs font-semibold text-primary uppercase tracking-wider">Conteúdo Premium</span>
-        </div>
-        <h1 className="text-2xl lg:text-3xl font-bold text-foreground mb-2">Cursos de Trading</h1>
-        <p className="text-muted-foreground max-w-lg text-sm leading-relaxed">
+      <motion.div variants={anim}>
+        <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-primary mb-2">Academia · Premium</p>
+        <h1 className="text-3xl lg:text-4xl font-semibold text-foreground tracking-tight">
+          Cursos de <span className="font-serif-italic text-primary/90">trading</span>
+        </h1>
+        <p className="text-sm text-muted-foreground mt-2 max-w-lg leading-relaxed">
           Conteúdo exclusivo criado pelo {brand.mentorName} para te transformar num trader consistente e rentável.
         </p>
       </motion.div>
