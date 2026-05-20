@@ -10,8 +10,8 @@ const events = [
 ];
 
 const statusStyles = {
-  active: { bg: 'bg-primary/10 text-primary', label: 'Activo', icon: Flame },
-  upcoming: { bg: 'bg-warning/10 text-warning', label: 'Em Breve', icon: Clock },
+  active: { bg: 'bg-market-up/10 text-market-up', label: 'Activo', icon: Flame },
+  upcoming: { bg: 'bg-market-warn/10 text-market-warn', label: 'Em Breve', icon: Clock },
   ended: { bg: 'bg-muted text-muted-foreground', label: 'Terminado', icon: Calendar },
 };
 
