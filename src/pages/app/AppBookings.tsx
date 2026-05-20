@@ -35,11 +35,11 @@ const bookings = [
 ];
 
 const statusStyles = {
-  pending: { bg: 'bg-warning/10 text-warning', label: 'Pendente' },
-  approved: { bg: 'bg-primary/10 text-primary', label: 'Aprovado' },
-  rejected: { bg: 'bg-destructive/10 text-destructive', label: 'Recusado' },
+  pending: { bg: 'bg-market-warn/10 text-market-warn', label: 'Pendente' },
+  approved: { bg: 'bg-market-up/10 text-market-up', label: 'Aprovado' },
+  rejected: { bg: 'bg-market-down/10 text-market-down', label: 'Recusado' },
   completed: { bg: 'bg-muted text-muted-foreground', label: 'Concluído' },
-  'no-show': { bg: 'bg-destructive/10 text-destructive', label: 'No-show' },
+  'no-show': { bg: 'bg-market-down/10 text-market-down', label: 'No-show' },
   cancelled: { bg: 'bg-muted text-muted-foreground', label: 'Cancelado' },
 };
 
